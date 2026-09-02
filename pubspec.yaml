@@ -1,0 +1,27 @@
+name: habot
+description: This is a flutter apllication
+ 
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  crypto: ^3.0.3
+  uuid: ^4.4.0
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  fake_async: ^1.3.1
+
+flutter:
+  uses-material-design: true
